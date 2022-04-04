@@ -1,0 +1,86 @@
+.ProductCard {
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    background-color:rgb(223, 210, 210);
+    width:303px;
+    padding:10px;
+    border-radius: 15px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.descripcion{
+    color:grey;
+}
+
+.precio{
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+}
+
+.numeroPrecio{
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+.unidad{
+    color:grey;
+    font-size: larger;
+}
+
+.contenedorBotones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
+.botonera{
+    width:100%;
+}
+
+.botonAdd{
+    width:100%;
+    border-radius: 20px;
+    background-color: yellow;
+    color: brown;
+    font-size: x-large;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#botonesEscondidos{
+    display:none;
+}
+a
+.carro{
+    color:grey;
+    width:100px;
+}
+
+.botonesFinales{
+    margin-left:100px;
+}
+
+.botonesFinales button{
+    padding:4px;
+    border-radius:50%;
+    color:brown;
+    background-color: yellow;
+}
+
+#cantidadTotal{
+    font-weight: bolder;
+    color:black;
+    font-size:x-large;
+}
+
